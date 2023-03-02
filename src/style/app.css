@@ -1,0 +1,31 @@
+.app{
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    overflow: hidden;
+}
+
+/* active list style */
+.active{
+    background-color: blue;
+    color: white;
+}
+/* ------------------ */
+
+
+
+/* style for title bar of every component */
+.title-bar{
+    height:10%;
+    width:100%;
+    border-radius:12px 0px 0px 0px;
+    background-image: linear-gradient(0deg, rgb(123, 132, 140), transparent);
+    border-bottom: 1px solid #6c757d;
+    padding : 1px 5px 10px 8px;
+}
+.titleBar-p{
+    font-weight:'bold';
+    margin:0px;
+}
+/* ------------------------------------------- */

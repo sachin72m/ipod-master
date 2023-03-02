@@ -1,0 +1,60 @@
+.controller-container{
+    height: 50%;
+    width: 100%;
+    background-color: #E0E1E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* style wheel */
+.wheel{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8F8E8F;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.wheel-btn{
+    position: absolute;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wheel-btn img{
+    height: 20px;
+    width: 35px;
+}
+
+/* individual button */
+.menu-btn{
+    margin-top: -135px;
+}
+.backward-btn{
+    margin-left:-149px ;
+}
+.backward-btn img{
+    height: 28px;
+    width: 46px;
+}
+.forward-btn{
+    margin-left: 150px;
+}
+.start-play-btn{
+    margin-top: 160px;
+}
+.ok-btn{
+    width: 100px;
+    height: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #8F8E8F;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
